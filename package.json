@@ -1,0 +1,18 @@
+{
+  "name": "boundary-line-constituencies-simplified",
+  "version": "1.0.0",
+  "description": "A simplified version of the Ordnance Survey UK parliamentary constituencies shapefile",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hubgit/boundary-line-constituencies-simplified.git"
+  },
+  "author": "Alf Eaton <eaton.alf@gmail.com>",
+  "license": "ODL",
+  "bugs": {
+    "url": "https://github.com/hubgit/boundary-line-constituencies-simplified/issues"
+  },
+  "homepage": "https://github.com/hubgit/boundary-line-constituencies-simplified",
+  "dependencies": {
+    "mapshaper": "^0.2.14"
+  }
+}

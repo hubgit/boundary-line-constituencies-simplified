@@ -4,17 +4,21 @@ The Boundary-Line shapefile for UK parliamentary constituencies is 70MB, which i
 
 This version of the shapefile is simplified to 10% of the size, by removing detail from the polygons.
 
-## Source
+## Building
 
-* [Boundary-Line](http://www.ordnancesurvey.co.uk/business-and-government/products/boundary-line.html)
-* Click "Free download", check the "Download" box for the Boundary-Line product, select "ESRI Shape" format, click "Next", fill in the form, wait for the email to arrive, download the zip file, extract the `Data/westminster_const_region.*` files.
+* `npm install`
+* `make`
 
-* [mapshaper](https://github.com/mbloch/mapshaper)
-* `npm install -g mapshaper`
-* `mapshaper westminster_const_region.shp -simplify 10% keep-shapes`
-* `zip westminster_constituencies.zip westminster_const_region-ms.*`
+## Sources
 
-* [CartoDB](https://cartodb.com/)
+### [Boundary-Line](http://www.ordnancesurvey.co.uk/business-and-government/products/boundary-line.html)
+
+Click "Free download", check the "Download" box for the Boundary-Line product, select "ESRI Shape" format, click "Next", fill in the form, wait for the email to arrive, download the zip file, extract the `Data/westminster_const_region.*` files.
+
+### [mapshaper](https://github.com/mbloch/mapshaper)
+
+### [CartoDB](https://cartodb.com/)
+
 * Login, click "View your tables", click "New table",
 * Upload the `westminster_constituencies.zip` file.
 
