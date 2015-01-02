@@ -2,9 +2,13 @@
 
 The Boundary-Line shapefile for UK parliamentary constituencies is 70MB, which is too large for CartoDB's free plan.
 
-This version of the shapefile is simplified to 10% of the size, by removing detail from the polygons.
+These versions of the shapefile are simplified to 1% or 10% of the size, by removing detail from the polygons.
 
-## Building
+## Usage
+
+Upload [simplified-1/westminster_constituencies.zip](simplified-1/westminster_constituencies.zip) to CartoDB.
+
+## Build
 
 * `npm install`
 * `make`
